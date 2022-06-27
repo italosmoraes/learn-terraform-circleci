@@ -1,5 +1,11 @@
 terraform {
-  /* cloud {} */
+  /* cloud {
+    organization = "italo-personal-projects"
+
+    workspaces {
+      name = "ts-example-workspace"
+    }
+  } */
 
   required_providers {
     aws = {
